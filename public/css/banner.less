@@ -1,0 +1,359 @@
+/************ index.html ************/
+div.banner-index {
+   position: relative;
+   width: 100%;
+   min-height: 500px;
+   max-height: 740px;
+   height: 100%;
+   text-align: center;
+   overflow: hidden;
+   background-color: rgba(32, 45, 92, .87);
+   background-size: cover;
+   .video-default-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 15;
+      @media screen and (max-width: 767px) {
+         background-image: url("../images/bg1.jpg");
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+   }
+   video {
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -10;
+   }
+   .container {
+      position: relative;
+      width: 100%;
+      max-width: 960px;
+      height: 100%;
+      padding: 0;
+      margin: 0 auto;
+      z-index: 50;
+      .slogan-wrap {
+         position: relative;
+         width: 100%;
+         height: 60%;
+         color: #fff;
+         .slogan {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 100%;
+            margin: -10px 0 0 -50%;
+            p.name {
+               font-size: 18px;
+               letter-spacing: 1px;
+            }
+            p.slogan-title {
+               font-family: "Microsoft JhengHei Light";
+               font-size: 48px;
+               @media screen and (max-width: 768px) and (max-width: 991px) {
+                  font-size: 30px;
+               }
+               @media screen and (max-width: 767px) {
+                  font-size: 2.4rem;
+               }
+            }
+            p.play-video {
+               margin-top: 30px;
+               span {
+                  cursor: pointer;
+                  position: relative;
+                  i {
+                     position: absolute;
+                     width: 9px;
+                     height: 9px;
+                     &.i1 {
+                        border-top: 1px solid #fff;
+                        border-right: 1px solid #fff;
+                        top: -3px;
+                        right: -8px;
+                     }
+                     &.i2 {
+                        border-bottom: 1px solid #fff;
+                        border-left: 1px solid #fff;
+                        bottom: -3px;
+                        left: -8px;
+                     }
+                  }
+               }
+            }
+
+            div.slogan-animation-box {
+               height: 25px;
+               overflow: hidden;
+               ul {
+                  li {
+                     letter-spacing: 5px;
+                  }
+               }
+            }
+         }
+      }
+      .drop-down {
+         position: absolute;
+         width: 100%;
+         bottom: 32px;
+         cursor: pointer;
+         i {
+            display: block;
+            margin: auto;
+            width: 22px;
+            height: 26px;
+            background-image: url("../images/icons.png");
+            background-repeat: no-repeat;
+         }
+      }
+   }
+}
+
+.drop-down {
+   position: absolute;
+   width: 100%;
+   bottom: 32px;
+   cursor: pointer;
+   i {
+      display: block;
+      margin: auto;
+      width: 22px;
+      height: 26px;
+      background-image: url("../images/icons.png");
+      background-repeat: no-repeat;
+   }
+}
+
+.screen-video {
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #151515;
+   justify-content: center;
+   z-index: 9999;
+   display: none;
+   .screen-video-wrap {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 854px;
+      height: 480px;
+      margin-left: -427px;
+      margin-top: -240px;
+      display: none;
+      video {
+         width: 100%;
+         height: 100%;
+      }
+   }
+   .close-video {
+      position: absolute;
+      top: 32px;
+      right: 32px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #585D65;
+      cursor: pointer;
+      color: #fff;
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+   }
+}
+
+/************ info ************/
+div.banner {
+   text-align: center;
+   background-size: cover;
+   color: #fff;
+   position: relative;
+   @media screen and (min-width: 1921px){
+      background-size: 100% !important;
+   }
+   &.banner-case {
+      height: 352px;
+      background-image: url("../images/banner-case.jpg");
+      background-position: center;
+   }
+   &.banner-talent {
+      background-image: url("../images/banner-talent.jpg");
+      background-position: center;
+   }
+   &.banner-about {
+      height: 739px;
+      background-image: url("../images/banner-about.jpg");
+      background-position: center;
+      p.p2 {
+         text-align: left;
+      }
+   }
+   &.banner-pro {
+      height: 741px;
+      @media screen and (max-width: 767px) {
+         height: 100%;
+      }
+      background: url("../images/banner-pro.jpg") no-repeat center;
+      div.container {
+         p.title {
+            font-size: 26px;
+         }
+      }
+      div.ban-pro {
+         text-align: center;
+         font-size: 0;
+         letter-spacing: -1px;
+         margin-top: 80px;
+         @media screen and (max-width: 767px) {
+            margin-top: 25px;
+         }
+         a {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+            color: #fff;
+            width: 120px;
+            div {
+               margin-bottom: 10px;
+               &.ban-a1 {
+                  background-image: url("../images/pro_ico_01.png");
+                  background-repeat: no-repeat;
+                  background-position: center;
+               }
+               &.ban-a2 {
+                  background-image: url("../images/pro_ico_02.png");
+                  background-repeat: no-repeat;
+                  background-position: center;
+               }
+               &.ban-a3 {
+                  background-image: url("../images/pro_ico_03.png");
+                  background-repeat: no-repeat;
+                  background-position: center;
+               }
+               &.ban-a4 {
+                  background-image: url("../images/pro_ico_04.png");
+                  background-repeat: no-repeat;
+                  background-position: center;
+               }
+               &:hover {
+                  background-size: 40%;
+               }
+               img {
+                  width: 100%;
+               }
+            }
+            @media screen and (max-width: 767px) {
+               width: 25%;
+               div {
+                  background-size: 50% !important;
+               }
+            }
+         }
+      }
+   }
+   &.banner-fea {
+      height: 741px;
+      @media screen and (max-width: 767px) {
+         height: 100%;
+      }
+      background-image: url("../images/banner-fea.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      div.container {
+         padding-top: 160px;
+         max-width: 1090px;
+         @media screen and (max-width: 767px) {
+            padding-top: 100px;
+         }
+         p.title {
+            font-size: 26px;
+            @media screen and (max-width: 767px) {
+               font-size: 2rem;
+            }
+         }
+         div.ban-fea {
+            text-align: center;
+            margin-top: 90px;
+            position: relative;
+            @media screen and (max-width: 767px) {
+               margin-top: 60px;
+            }
+            img {
+               display: block;
+               max-width: 100%;
+               margin: auto;
+            }
+            .im {
+               position: absolute;
+            }
+            img.fea-img1 {
+               top: 55px;
+               left: 55px;
+            }
+            img.fea-img2 {
+               top: 105px;
+               left: 85px;
+            }
+            img.fea-img3 {
+               top: 85px;
+               left: 150px;
+            }
+            img.fea-img4 {
+               top: 118px;
+               left: 177px;
+            }
+            img.fea-img5 {
+               top: 150px;
+               left: 130px;
+            }
+            img.fea-img6 {
+               top: 155px;
+               left: 72px;
+            }
+            div.jt {
+               top: 119px;
+               left: 265px;
+               i {
+                  float: left;
+                  color: #fff;
+                  transform: rotate(-90deg);
+                  position: relative;
+                  opacity: 0;
+                  &.fea-i2 {
+                     left: -8px;
+                  }
+                  &.fea-i3 {
+                     left: -15px;
+                  }
+               }
+            }
+         }
+      }
+   }
+   div.container {
+      padding-top: 130px;
+      max-width: 860px;
+      @media screen and (max-width: 767px) {
+         padding-top: 80px;
+      }
+      p.title {
+         font-size: 36px;
+         margin-bottom: 10px;
+      }
+   }
+}
+

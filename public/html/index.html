@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="renderer" content="webkit|ie-comp|ie-stand">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>企信云</title>
+   <!--样式表-->
+   <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/animate.css">
+   <link rel="stylesheet" href="../font/style.css">
+   <link rel="stylesheet" href="../css/nav.css">
+   <link rel="stylesheet" href="../css/banner.css">
+   <link rel="stylesheet" href="../css/footer.css">
+   <link rel="stylesheet" href="../css/index.css">
+   <!--js库文件-->
+   <script type='text/javascript' src="../js/jquery/jquery.min.js"></script>
+   <script type='text/javascript' src="../js/bootstrap/bootstrap.min.js"></script>
+   <script src="../js/nav.js"></script>
+   <script src="../js/banner.js"></script>
+
+   <!--[if lt IE 9]>
+   <script src="../js/placeholder.js"></script>
+   <script src="../js/html5.js"></script>
+   <script src="../js/respond.js"></script>
+   <![endif]-->
+</head>
+<body>
+<!--顶部导航-->
+<nav class="navbar navbar-fixed-top">
+   <div class="container-fluid">
+      <div class="navbar-header">
+         <a class="logo navbar-brand" href="index.html"><img src="../images/logo.png" alt="" class="logo1"><img
+            src="../images/logo2.png" alt="" class="logo2"></a>
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                 data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+      </div>
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right u2 hidden-sm hidden-xs">
+            <li class="nav_r">
+               <a href="index.html"><span class="icon icon-icon-xqyx"></span> postmaster@qixinyun.com</a>
+            </li>
+            <li class="nav_r">
+               <a href="index.html"><span class="icon icon-icon-xqdh"></span> 010-83629322</a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item active">
+               <a href="index.html">首页</a>
+            </li>
+            <li class="nav-item">
+               <a href="feature.html">功能介绍</a>
+            </li>
+            <li class="nav-item">
+               <a href="product.html">产品介绍</a>
+            </li>
+            <li class="nav-item">
+               <a href="case.html">成功案例</a>
+            </li>
+            <li class="nav-item">
+               <a href="talent.html">人才招聘</a>
+            </li>
+            <li class="nav-item">
+               <a href="about.html">关于我们</a>
+            </li>
+         </ul>
+      </div>
+
+   </div>
+</nav>
+
+<!--视频banner-->
+<div class="banner banner-index">
+   <!--<div class="video-default-img"></div>-->
+   <div id="banner"></div>
+   <video loop="loop" class="hidden-xs" id="home_video" muted="muted" preload="auto" autoplay="autoplay">
+      <source src="../font/media/homeVideo.mp4" type="video/mp4">
+   </video>
+   <div class="container">
+      <div class="slogan-wrap">
+         <div class="slogan wow fadeInUp">
+            <p class="name">企业信息大数据分析与服务平台</p>
+            <p class="slogan-title">最全面的云端大数据服务平台</p>
+            <div class="slogan-animation-box wow bounceIn" data-wow-delay="1s">
+               <ul>
+                  <li>数据无形，有容乃大</li>
+                  <li>数据无形，有容乃大</li>
+                  <li>数据无形，有容乃大</li>
+                  <li>数据无形，有容乃大</li>
+                  <li>数据无形，有容乃大</li>
+               </ul>
+            </div>
+            <!--<p class="play-video  wow bounceIn hidden-xs hidden-sm" data-wow-delay="1s" id="play_video"
+               onclick="playVideo()">-->
+            <p class="play-video  wow bounceIn hidden-xs hidden-sm" data-wow-delay="1s" id="play_video">
+               <span>
+                  <i class="i1"></i>
+                  了解详情
+                  <i class="i2"></i>
+               </span>
+            </p>
+         </div>
+      </div>
+      <div class="drop-down">
+         <i class="icon-1"></i>
+      </div>
+   </div>
+</div>
+<!--视频弹出层-->
+<div class="screen-video" style="display: none">
+   <div class="screen-video-wrap"></div>
+   <div class="close-video icon icon-icon-lbc" onclick="closeScreenVideo()"></div>
+</div>
+
+<!--主体-->
+<section>
+   <!--如何提升效益-->
+   <div class="benefits">
+      <div class="benefits-title">
+         <div class="container">
+            <p class="title">企信云如何帮助企业提升效益？</p>
+            <p class="p2">企信云为企业提供的核心价值在于用只管、多维、实时的方式展示和分析数据，并可在移动端实时查看和分享，全面激活企业内部数据</p>
+         </div>
+      </div>
+      <div class="benefits-container">
+         <div class="benefits-block block1">
+            <div class="container">
+               <div class="row">
+                  <div class="tu col-md-8 col-xs-12 wow bounceInUp visible-xs">
+                     <!--<img src="../images/index-01.png" alt="">-->
+                     <img src="../images/qixinyun-zh.png" alt="">
+                  </div>
+                  <div class="tu zh col-md-8 col-xs-12 wow bounceInUp visible-sm">
+                     <div class="bg0 pa">
+                        <div class="bg1"></div>
+                     </div>
+                     <div class="hx-box pa">
+                        <ul class="pr">
+                           <li class="hx-k1 pa0">
+                              <span></span>
+                           </li>
+                           <li class="hx-k2 pa0">
+                              <span></span>
+                           </li>
+                           <li class="hx-k3 pa0">
+                              <span></span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="wen col-md-4 col-xs-12 wow bounceInUp">
+                     <p class="title">智核--自律数据模型接口</p>
+                     <div class="content">从基础数据整合，到数据处理、分析、挖掘，再到全面数据的可视化，稳步提升企业核心竞争力
+                     </div>
+                     <a href="javascript:" class="a-link">了解详情</a>
+                  </div>
+                  <div class="tu zh col-md-8 col-xs-12 wow bounceInUp hidden-xs hidden-sm">
+                     <div class="bg0 pa">
+                        <div class="bg1"></div>
+                     </div>
+                     <div class="hx-box pa">
+                        <ul class="pr">
+                           <li class="hx-k1 pa0">
+                              <span></span>
+                           </li>
+                           <li class="hx-k2 pa0">
+                              <span></span>
+                           </li>
+                           <li class="hx-k3 pa0">
+                              <span></span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="benefits-block">
+            <div class="container">
+               <div class="row">
+                  <div class="tu col-md-8 col-xs-12 wow bounceInUp visible-xs">
+                     <!--<img src="../images/index-02.png" alt="">-->
+                     <img src="../images/qixinyun-zk.png" alt="">
+                  </div>
+                  <div class="tu zk col-md-8 col-xs-12 wow bounceInUp hidden-xs">
+                     <div class="zk-bj"></div>
+                     <div class="zks">
+                        <div class="zk-01"></div>
+                        <div class="zks-d zks-1">
+                           <div class="zkc zkc1"></div>
+                           <div class="zkc zkc2"></div>
+                           <div class="zkc zkc3"></div>
+                        </div>
+                        <div class="zks-d zks-2">
+                           <div class="zkc zkc4"></div>
+                           <div class="zkc zkc5"></div>
+                           <div class="zkc zkc6"></div>
+                        </div>
+                        <div class="zks-d zks-3">
+                           <div class="zkc zkc7"></div>
+                           <div class="zkc zkc8"></div>
+                           <div class="zkc zkc9"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="wen col-md-4 col-xs-12 wow bounceInUp">
+                     <p class="title">智库--全方位的数据更迭</p>
+                     <div class="content">数据来源广泛，更新迅捷，及时展现商圈最新动态汇集上百种数据源实时采样，精准对接
+                     </div>
+                     <a href="javascript:" class="a-link">了解详情</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="benefits-block block1">
+            <div class="container">
+               <div class="row">
+                  <div class="tu col-md-7 col-xs-12 wow bounceInUp visible-xs">
+                     <img src="../images/index-03.png" alt="">
+                  </div>
+                  <div class="tu zw col-md-7 col-xs-12 wow bounceInUp visible-sm">
+                     <img src="../images/qixinyun-zw.png" alt="">
+                     <img src="../images/qixinyun-zw-1.png" alt="" class="zw-img zw-img1">
+                     <img src="../images/qixinyun-zw-2.png" alt="" class="zw-img zw-img2">
+                     <img src="../images/qixinyun-zw-3.png" alt="" class="zw-img zw-img3">
+                     <img src="../images/qixinyun-zw-4.png" alt="" class="zw-img zw-img4">
+                     <img src="../images/qixinyun-zw-5.png" alt="" class="zw-img zw-img5">
+                     <img src="../images/qixinyun-zw-6.png" alt="" class="zw-img zw-img6">
+                     <img src="../images/qixinyun-zw-5.png" alt="" class="zw-img zw-img7">
+                  </div>
+                  <div class="wen col-md-5 col-xs-12 wow bounceInUp">
+                     <p class="title">智网--可靠的计算集群</p>
+                     <div class="content">企信云架设有完备的数据服务器群组，提供稳定且卓越的数据运算处理服务，逾七千万家企业的各类数据，毫秒级响应
+                     </div>
+                     <a href="javascript:" class="a-link">了解详情</a>
+                  </div>
+                  <div class="tu zw col-md-7 col-xs-12 wow bounceInUp hidden-xs hidden-sm">
+                     <img src="../images/qixinyun-zw.png" alt="">
+                     <img src="../images/qixinyun-zw-1.png" alt="" class="zw-img zw-img1">
+                     <img src="../images/qixinyun-zw-2.png" alt="" class="zw-img zw-img2">
+                     <img src="../images/qixinyun-zw-3.png" alt="" class="zw-img zw-img3">
+                     <img src="../images/qixinyun-zw-4.png" alt="" class="zw-img zw-img4">
+                     <img src="../images/qixinyun-zw-5.png" alt="" class="zw-img zw-img5">
+                     <img src="../images/qixinyun-zw-6.png" alt="" class="zw-img zw-img6">
+                     <img src="../images/qixinyun-zw-5.png" alt="" class="zw-img zw-img7">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="benefits-block">
+            <div class="container">
+               <div class="row">
+                  <div class="tu col-md-8 col-xs-12 wow bounceInUp visible-xs">
+                     <img src="../images/index-04.png" alt="">
+                  </div>
+                  <div class="tu col-md-8 col-xs-12 wow bounceInUp hidden-xs">
+                     <div class="zc">
+                        <img src="../images/qixinyun-zc-1.png" alt="" class="img-zc img-zc-1">
+                        <img src="../images/qixinyun-zc-2.png" alt="" class="img-zc opc img-zc-2">
+                        <img src="../images/qixinyun-zc-3.png" alt="" class="img-zc opc img-zc-3">
+                        <img src="../images/qixinyun-zc-4.png" alt="" class="img-zc opc img-zc-4">
+                        <img src="../images/qixinyun-zc-5.png" alt="" class="img-zc opc img-zc-5">
+                        <img src="../images/qixinyun-zc-6.png" alt="" class="img-zc opc img-zc-6">
+                        <img src="../images/qixinyun-zc-7.png" alt="" class="img-zc opc img-zc-7">
+                        <img src="../images/qixinyun-zc-8.png" alt="" class="opc img-zc-8">
+
+                        <img src="../images/qixinyun-zc-ico-1.png" alt="" class="img-zc img-zc-ico-1 wow fadeIn"
+                             data-wow-delay="0.6s">
+                        <img src="../images/qixinyun-zc-ico-2.png" alt="" class="img-zc img-zc-ico-2 wow fadeIn"
+                             data-wow-delay="0.8s">
+                        <img src="../images/qixinyun-zc-ico-3.png" alt="" class="img-zc img-zc-ico-3 wow fadeIn"
+                             data-wow-delay="1s">
+                        <img src="../images/qixinyun-zc-ico-1.png" alt="" class="img-zc img-zc-ico-4 wow fadeIn"
+                             data-wow-delay="1.2s">
+
+                        <img src="../images/qixinyun-zc-ico-4.png" alt="" class="img-zc img-zc-ico-01">
+                        <img src="../images/qixinyun-zc-ico-4.png" alt="" class="img-zc img-zc-ico-02">
+                        <img src="../images/qixinyun-zc-ico-4.png" alt="" class="img-zc img-zc-ico-03">
+                        <img src="../images/qixinyun-zc-ico-4.png" alt="" class="img-zc img-zc-ico-04">
+                        <img src="../images/qixinyun-zc-ico-4.png" alt="" class="img-zc img-zc-ico-05">
+                     </div>
+                  </div>
+                  <div class="wen col-md-4 col-xs-12 wow bounceInUp">
+                     <p class="title">智诚--完善的服务系统</p>
+                     <div class="content">层次化的运维服务为企业免除后顾之忧，工程师专家全天候待命为您答疑解惑，为企业保驾护航
+                     </div>
+                     <a href="javascript:" class="a-link">了解详情</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--行业应用-->
+   <div class="industry-info">
+      <div class="container">
+         <div class="industry-top">
+            <p class="title">行业应用</p>
+            <p class="p2">企信云适用于各类企业的数据平台搭建，企业能够结合自身业务快速建立个性化数据体系，目前已为数千家企业提供了一站式云端数据分析服务，帮助企业轻松实现数据化管理，提升经营绩效。</p>
+         </div>
+         <ul class="industry-content row">
+            <li class="col-xs-6 col-sm-3">
+               <div class="d1"></div>
+               <p>服务大数据</p>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+               <div class="d2"></div>
+               <p>诉讼大数据</p>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+               <div class="d3"></div>
+               <p>媒体大数据</p>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+               <div class="d4"></div>
+               <p>征信大数据</p>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+               <div class="d5"></div>
+               <p>质检大数据</p>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+               <div class="d6"></div>
+               <p>媒体大数据</p>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+               <div class="d7"></div>
+               <p>行监大数据</p>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+               <div class="d8"></div>
+               <p>产权大数据</p>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <!--合作伙伴-->
+   <div class="companion-list">
+      <div class="container">
+         <div class="industry-top">
+            <p class="title">企信云的合作伙伴</p>
+            <p class="p2">企信云已经帮助3000多家企业建立起先进的数据驱动体系，使他们更合理、高效的进行资源的优化和配置，让企业将数据物尽其用。</p>
+         </div>
+         <div class="companion-content">
+            <ul class="row">
+               <li class="fl">
+                  <a href="product.html">
+                     <div class="d1"></div>
+                     <p>北京市森林公安局视频监控系统</p>
+                  </a>
+               </li>
+               <li class="fl">
+                  <a href="product.html">
+                     <div class="d2"></div>
+                     <p>综合信息管理平台</p>
+                  </a>
+               </li>
+               <li class="fl">
+                  <a href="product.html">
+                     <div class="d3"></div>
+                     <p>北京市国家公务员电子政务考试平台</p>
+                  </a>
+               </li>
+               <li class="fl">
+                  <a href="product.html">
+                     <div class="d4"></div>
+                     <p>北京市公安局大兴分局110综合报警平台</p>
+                  </a>
+               </li>
+               <li class="fl">
+                  <a href="product.html">
+                     <div class="d5"></div>
+                     <p>政府信用信息公示平台</p>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!--深入了解企信云-->
+   <div class="insight-info">
+      <div class="container">
+         <div class="industry-top">
+            <p class="title">深入了解企信云</p>
+            <p class="p2">如需更深入了解企信云，请填写以下信息，我们会尽快安排专业人员与您沟通，帮助您快速建立企业数据解决方案。</p>
+         </div>
+         <div class="industry-form">
+            <form action="" id="signupForm" method="get">
+               <div class="ind-d1 row">
+                  <div class="ind-item fl">
+                     <input type="text" id="name" class="int">
+                     <label for="name">姓名</label>
+                  </div>
+                  <div class="ind-item fr">
+                     <input type="text" id="zhiwei" class="int">
+                     <label for="zhiwei">职位</label>
+                  </div>
+                  <div class="ind-item fl">
+                     <input type="text" id="gs" class="int">
+                     <label for="gs">公司</label>
+                  </div>
+                  <div class="ind-item fr">
+                     <input type="text" id="ssbm" class="int">
+                     <label for="ssbm">所属部门</label>
+                  </div>
+                  <div class="ind-item fl">
+                     <input type="tel" id="tel" class="int">
+                     <label for="tel">电话</label>
+                  </div>
+                  <div class="ind-item fr">
+                     <input type="email" id="email" class="int">
+                     <label for="email">邮箱</label>
+                  </div>
+               </div>
+               <div class="ind-d2">
+                  <div class="ind-item">
+                     <textarea name="/" id="" placeholder="您想通过企信云解决什么问题..."></textarea>
+                  </div>
+               </div>
+               <div class="ind-d3">
+                  <p id="yz">请填写完善信息</p>
+                  <input type="button" id="submit" value="立刻提交">
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Modal -->
+<div class="mod">
+   <div class="zx">
+      <div>
+         <p>您的信息已提交，我们将尽快联系您解决您的问题</p>
+         <a href="javascript:" id="yz-close">我知道了</a>
+      </div>
+   </div>
+</div>
+
+<!--首页底部-->
+<footer>
+   <div class="container">
+      <div class="row">
+         <div class="foot-l col-md-7 col-sm-9 col-xs-12">
+            <div class="row">
+               <ul class="col-xs-4">
+                  <li class="title"><a href="javascript:">新手指导</a></li>
+                  <li class="hidden-xs"><a href="javascript:">信息发布</a></li>
+                  <li class="hidden-xs"><a href="javascript:">常见问题</a></li>
+               </ul>
+               <ul class="col-xs-4">
+                  <li class="title"><a href="javascript:">业务内容</a></li>
+                  <li class="hidden-xs"><a href="javascript:">天网征信</a></li>
+                  <li class="hidden-xs"><a href="javascript:">天时产销</a></li>
+                  <li class="hidden-xs"><a href="javascript:">天道融贷</a></li>
+                  <li class="hidden-xs"><a href="javascript:">天才培训</a></li>
+               </ul>
+               <ul class="col-xs-4">
+                  <li class="title"><a href="javascript:">关于我们</a></li>
+                  <li class="hidden-xs"><a href="javascript:">企信云介绍</a></li>
+                  <li class="hidden-xs"><a href="javascript:">专家团队</a></li>
+                  <li class="hidden-xs"><a href="javascript:">商务合作</a></li>
+                  <li class="hidden-xs"><a href="javascript:">联系我们</a></li>
+                  <li class="hidden-xs"><a href="javascript:">合作伙伴</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="foot-r col-xs-4 visible-xs">
+            <p class="title">关注企信云</p>
+            <img src="../images/ewm.png" alt="">
+         </div>
+         <div class="foot-c col-md-3 col-xs-8 hidden-sm">
+            <div>
+               <span class="title">咨询电话</span>
+               <p>010-83629322</p>
+            </div>
+            <div>
+               <span class="title">客服邮箱</span>
+               <p>postmaster@qixinyun.com</p>
+            </div>
+         </div>
+         <div class="foot-r col-md-2 col-sm-3 hidden-xs">
+            <p class="title">关注企信云</p>
+            <img src="../images/ewm.png" alt="">
+         </div>
+      </div>
+   </div>
+</footer>
+
+
+<!--本页js-->
+<script type='text/javascript' src="../js/wow.min.js"></script>
+<script type='text/javascript' src="../js/global.js"></script>
+<script src="../js/index.js"></script>
+<script id="vertexShader" type="x-shader/x-vertex">
+
+// Uniforms
+uniform float time;
+varying vec3 vNormal;
+
+void main(void) {
+   vec3 v = position;
+   vNormal = normal;
+   v.z += cos(2.0 * position.x + (time)) * 4085.5;
+
+   gl_Position = projectionMatrix *
+                modelViewMatrix *
+                vec4(v, 1.0);
+}
+
+
+
+
+
+
+
+
+</script>
+<script id="fragmentShader" type="x-shader/x-fragment">
+varying vec3 vNormal;
+uniform float time;
+
+void main(void) {
+    vec3 light = vec3(0.1, .9, .1);
+
+    light = normalize(light);
+
+    float dProd = max(0.2, dot(vNormal, light));
+
+    gl_FragColor = vec4(dProd, // R
+                      dProd, // G
+                      dProd, // B
+                      1.0);  // A
+}
+
+
+
+
+
+
+
+
+</script>
+<script src='../js/three.min.js'></script>
+<script src="../js/index2.js"></script>
+</body>
+</html>

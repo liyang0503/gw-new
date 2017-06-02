@@ -1,0 +1,60 @@
+footer {
+  padding: 30px 0 60px;
+  font-size: 12px;
+  color: #666;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 15px 0 20px;
+  }
+}
+footer div.container {
+  max-width: 1060px;
+}
+@media screen and (max-width: 991px) {
+  footer div.container .row {
+    margin: 0;
+  }
+}
+footer div.container .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 1200px) {
+  footer div.container div.foot-l {
+    padding-left: 65px;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer div.container div.foot-l ul {
+    padding: 0 10px;
+  }
+}
+footer div.container div.foot-l ul:first-child {
+  padding-left: 0;
+}
+footer div.container div.foot-l ul li.title a {
+  color: #666;
+}
+footer div.container div.foot-l ul li a {
+  display: block;
+}
+footer div.container div.foot-l ul li a:hover {
+  color: #6699ff;
+}
+footer div.container div.foot-c div {
+  margin-bottom: 20px;
+}
+footer div.container div.foot-r .title {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  footer div.container div.foot-r .title {
+    margin-bottom: 5px;
+  }
+}
+footer div.container div.foot-r img {
+  display: block;
+  width: 100%;
+  max-width: 120px;
+}

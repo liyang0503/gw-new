@@ -1,0 +1,208 @@
+*, p, ul {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+@color: #07a970;
+
+html {
+   font-size: 62.5%;
+   height: 100%;
+}
+
+body {
+   font: 14px/1.8 "Microsoft YaHei";
+   letter-spacing: 1px;
+   color: #000;
+   height: 100%;
+   @media screen and (max-width: 768px) {
+      font: 1.4rem/1.6 "Microsoft YaHei";
+   }
+}
+
+:focus {
+   outline: none;
+}
+
+ul, ol {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+a:hover, a:focus {
+   text-decoration: none;
+}
+
+table {
+   border-spacing: 0;
+}
+
+label {
+   font-weight: normal;
+   margin: 0;
+}
+
+header, nav, section, footer {
+   display: block;
+   width: 100%;
+}
+
+.fl {
+   float: left;
+}
+
+.fr {
+   float: right;
+}
+
+@media screen and (min-width: 1200px) {
+   .container {
+      width: 1200px;
+   }
+}
+
+/************** nav ****************/
+nav {
+   z-index: 9999;
+   box-shadow: 0 -1px 0 0 rgba(255, 255, 255, .1) inset;
+   background: transparent;
+   transition: all .1s ease-in-out 0s;
+   border-bottom: 1px solid transparent;
+   height: 64px;
+   @media screen and (max-width: 767px) {
+      background: rgba(32, 45, 92, 0.87);
+      height: 50px;
+      box-shadow: none;
+   }
+   div.container-fluid {
+      padding: 0 24px;
+      @media screen and (max-width: 768px) {
+         padding: 0 8px 0 15px;
+      }
+      .navbar-header {
+         @media screen and (max-width: 767px) {
+            z-index: 1;
+         }
+         button {
+            span {
+               display: block;
+               width: 24px;
+               height: 2px;
+               border-radius: 1px;
+               background: #fff;
+            }
+         }
+         .navbar-brand {
+            height: 64px;
+            @media screen and (max-width: 767px) {
+               padding: 8px 15px;
+               height: 50px;
+            }
+            img {
+               height: 100%;
+            }
+            img.logo2 {
+               display: none;
+            }
+         }
+      }
+      .navbar-collapse {
+         ul {
+            li {
+               height: 64px;
+               line-height: 64px;
+               padding: 0 16px;
+               a {
+                  display: block;
+                  color: #fff;
+                  padding: 0;
+                  line-height: 64px;
+                  &:hover {
+                     background: transparent;
+                  }
+               }
+            }
+            li.nav-item {
+               a {
+                  @media screen and (max-width: 767px) {
+                     text-align: center;
+                  }
+                  &:before {
+                     content: "";
+                     display: block;
+                     width: 100%;
+                     height: 2px;
+                     background: transparent;
+                     position: absolute;
+                     bottom: 0;
+                     left: 0;
+                     transform: scaleX(0);
+                     transition: all .2s ease-in-out;
+                  }
+               }
+               &:hover, &.active {
+                  a {
+                     &:before {
+                        transform: scaleX(1);
+                        background: #fff;
+                     }
+                  }
+               }
+            }
+         }
+         ul.u2 {
+            margin-left: 50px;
+            @media screen and (min-width: 993px) and (max-width: 1079px) {
+               margin-left: 20px;
+            }
+            li {
+               span {
+                  margin-right: 3px;
+               }
+               &:first-child{
+                  span{
+                     position: relative;
+                     top: 3px;
+                  }
+               }
+            }
+         }
+         @media screen and (max-width: 767px) {
+            background-color: rgba(32, 45, 92, 1);
+         }
+      }
+   }
+   @media screen and (min-width: 768px) {
+      &.scroll {
+         background: #fff;
+         border-bottom: 1px solid #ddd;
+         div.container-fluid {
+            .navbar-collapse {
+               ul {
+                  li {
+                     a {
+                        color: #333;
+                     }
+                  }
+                  li.nav-item {
+                     &:hover, &.active {
+                        a {
+                           color: #6699ff;
+                           &:before {
+                              background: #6699ff;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+}

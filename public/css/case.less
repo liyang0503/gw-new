@@ -1,0 +1,272 @@
+section {
+   //政府项目
+   div.case {
+      text-align: center;
+      padding: 40px 0;
+      div.case-top {
+         div.container {
+            max-width: 660px;
+            div.top-title {
+               margin-bottom: 20px;
+               p.p1 {
+                  font-size: 30px;
+               }
+               p.p2 {
+                  line-height: 100%;
+               }
+            }
+         }
+      }
+      div.case-content {
+         margin-top: 50px;
+         div.container {
+            ul {
+               box-shadow: 0 0 15px 1px #ddd;
+               li {
+                  width: 20%;
+                  text-align: center;
+                  padding: 20px 20px 15px;
+                  @media screen and (max-width: 991px) {
+                     width: 50%;
+                  }
+                  div {
+                     width: 100%;
+                     height: 200px;
+                     margin: 0 auto;
+                     position: relative;
+                     -webkit-transition: all 0.15s ease-in-out;
+                     -moz-transition: all 0.15s ease-in-out;
+                     -o-transition: all 0.15s ease-in-out;
+                     transition: all 0.15s ease-in-out;
+                     &.d1 {
+                        background: url("../images/hz-01.png") no-repeat center #f0f0f0;
+                     }
+                     &.d2 {
+                        background: url("../images/hz-02.png") no-repeat center #f0f0f0;
+                     }
+                     &.d3 {
+                        background: url("../images/hz-03.png") no-repeat center #f0f0f0;
+                     }
+                     &.d4 {
+                        background: url("../images/hz-04.png") no-repeat center #f0f0f0;
+                     }
+                     &.d5 {
+                        background: url("../images/hz-05.png") no-repeat center #f0f0f0;
+                     }
+                     &:before {
+                        content: "";
+                        position: absolute;
+                        right: -21px;
+                        top: 50%;
+                        height: 120px;
+                        width: 1px;
+                        background: #eee;
+                        margin-top: -60px;
+                     }
+                     &:hover {
+                        background-color: #e0e0e0;
+                     }
+                     @media screen and (max-width: 767px) {
+                        height: 135px;
+                        &:before {
+                           height: 80px;
+                           margin-top: -40px;
+                        }
+                     }
+                  }
+                  p {
+                     line-height: 130%;
+                     padding: 0 20px;
+                     color: #888;
+                     margin-top: 15px;
+                  }
+               }
+               li:last-child {
+                  div {
+                     &:before {
+                        background: transparent;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+   //联系我们
+   div.contact {
+      text-align: center;
+      height: 105px;
+      background: #f8f8f8;
+      color: #666;
+      padding: 34px 0;
+      @media screen and (max-width: 767px) {
+         height: 70px;
+         padding: 10px 0;
+      }
+      div.container {
+         span {
+            display: inline-block;
+            margin-right: 30px;
+         }
+         span.s1 {
+            font-size: 20px;
+            @media screen and (max-width: 767px) {
+               display: block;
+               margin: 0;
+               font-size: 1.6rem;
+            }
+         }
+         span.s2 {
+            margin-right: 25px;
+            i {
+               color: #6699ff;
+               font-size: 20px;
+               position: relative;
+               top: 3px;
+            }
+            @media screen and (max-width: 767px) {
+               font-size: 1.2rem;
+               margin-right: 3%;
+               &:last-child {
+                  margin-right: 0;
+               }
+
+               i {
+                  font-size: 1.2rem;
+               }
+            }
+         }
+      }
+   }
+   //人才招聘
+   div.talent {
+      padding: 40px 0;
+      color: #666;
+      @media screen and (max-width: 767px) {
+         padding: 10px 0;
+      }
+      div.container {
+         div.tal-le {
+            border-right: 1px solid #eee;
+            padding: 10px 0;
+            div.row {
+               margin: 0;
+               ul.tal-list {
+                  li.tal-li {
+                     a.a1 {
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #666;
+
+                        span {
+                           display: inline-block;
+                           vertical-align: middle;
+                           width: 25px;
+                           height: 25px;
+                           line-height: 20px;
+                           text-align: center;
+                           font-size: 24px;
+                           color: #6699ff;
+                        }
+                     }
+                     ul {
+                        display: none;
+                        padding-left: 50px;
+                        li {
+                           &.active {
+                              a {
+                                 color: #6699ff;
+                              }
+                           }
+                           a {
+                              &:hover {
+                                 color: #6699ff;
+                              }
+                           }
+                        }
+                     }
+                     &.active {
+                        ul {
+                           display: block;
+                        }
+                     }
+                     @media screen and (max-width: 767px) {
+                        a.a1 {
+                           font-size: 1.6rem;
+                        }
+
+                        ul {
+                           padding-left: 25px;
+                        }
+                     }
+                  }
+               }
+               div.tal-r {
+                  div.d1 {
+                     margin-bottom: 10px;
+                     p {
+                        font-size: 20px;
+                        font-weight: bold;
+                     }
+                     ul {
+                        li {
+                           i {
+                              display: inline-block;
+                              width: 5px;
+                              height: 5px;
+                              background: #6699ff;
+                              border-radius: 50%;
+                              margin: 0 10px 0 5px;
+                           }
+                        }
+                     }
+                  }
+                  @media screen and (max-width: 767px) {
+                     padding-left: 40px;
+                     div.d1 {
+                        margin-bottom: 5px;
+                        p {
+                           font-size: 1.6rem;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+         div.tal-rt {
+            padding: 10px 10px 10px 20px;
+            p {
+               font-size: 20px;
+               font-weight: bold;
+            }
+            ul {
+               li {
+                  color: #6699ff;
+                  padding: 2px 0;
+               }
+            }
+            @media screen and (min-width: 768px) and (max-width: 992px) {
+               p {
+                  border-bottom: 1px solid #eee;
+                  padding-bottom: 5px;
+               }
+
+               ul {
+                  overflow: hidden;
+                  li {
+                     float: left;
+                     margin-right: 15px;
+                     padding: 8px 0;
+                  }
+               }
+            }
+            @media screen and (max-width: 767px) {
+               padding-left: 40px;
+               p{
+                  font-size: 1.6rem;
+               }
+            }
+         }
+      }
+   }
+}

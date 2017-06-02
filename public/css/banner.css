@@ -1,0 +1,374 @@
+/************ index.html ************/
+div.banner-index {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  max-height: 740px;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(32, 45, 92, 0.87);
+  background-size: cover;
+}
+div.banner-index .video-default-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 15;
+}
+@media screen and (max-width: 767px) {
+  div.banner-index .video-default-img {
+    background-image: url("../images/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+div.banner-index video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+}
+div.banner-index .container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  z-index: 50;
+}
+div.banner-index .container .slogan-wrap {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  color: #fff;
+}
+div.banner-index .container .slogan-wrap .slogan {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  margin: -10px 0 0 -50%;
+}
+div.banner-index .container .slogan-wrap .slogan p.name {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+div.banner-index .container .slogan-wrap .slogan p.slogan-title {
+  font-family: "Microsoft JhengHei Light";
+  font-size: 48px;
+}
+@media screen and (max-width: 768px) and (max-width: 991px) {
+  div.banner-index .container .slogan-wrap .slogan p.slogan-title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.banner-index .container .slogan-wrap .slogan p.slogan-title {
+    font-size: 2.4rem;
+  }
+}
+div.banner-index .container .slogan-wrap .slogan p.play-video {
+  margin-top: 30px;
+}
+div.banner-index .container .slogan-wrap .slogan p.play-video span {
+  cursor: pointer;
+  position: relative;
+}
+div.banner-index .container .slogan-wrap .slogan p.play-video span i {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+}
+div.banner-index .container .slogan-wrap .slogan p.play-video span i.i1 {
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  top: -3px;
+  right: -8px;
+}
+div.banner-index .container .slogan-wrap .slogan p.play-video span i.i2 {
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  bottom: -3px;
+  left: -8px;
+}
+div.banner-index .container .slogan-wrap .slogan div.slogan-animation-box {
+  height: 25px;
+  overflow: hidden;
+}
+div.banner-index .container .slogan-wrap .slogan div.slogan-animation-box ul li {
+  letter-spacing: 5px;
+}
+div.banner-index .container .drop-down {
+  position: absolute;
+  width: 100%;
+  bottom: 32px;
+  cursor: pointer;
+}
+div.banner-index .container .drop-down i {
+  display: block;
+  margin: auto;
+  width: 22px;
+  height: 26px;
+  background-image: url("../images/icons.png");
+  background-repeat: no-repeat;
+}
+.drop-down {
+  position: absolute;
+  width: 100%;
+  bottom: 32px;
+  cursor: pointer;
+}
+.drop-down i {
+  display: block;
+  margin: auto;
+  width: 22px;
+  height: 26px;
+  background-image: url("../images/icons.png");
+  background-repeat: no-repeat;
+}
+.screen-video {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #151515;
+  justify-content: center;
+  z-index: 9999;
+  display: none;
+}
+.screen-video .screen-video-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 854px;
+  height: 480px;
+  margin-left: -427px;
+  margin-top: -240px;
+  display: none;
+}
+.screen-video .screen-video-wrap video {
+  width: 100%;
+  height: 100%;
+}
+.screen-video .close-video {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #585D65;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+/************ info ************/
+div.banner {
+  text-align: center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+@media screen and (min-width: 1921px) {
+  div.banner {
+    background-size: 100% !important;
+  }
+}
+div.banner.banner-case {
+  height: 352px;
+  background-image: url("../images/banner-case.jpg");
+  background-position: center;
+}
+div.banner.banner-talent {
+  background-image: url("../images/banner-talent.jpg");
+  background-position: center;
+}
+div.banner.banner-about {
+  height: 739px;
+  background-image: url("../images/banner-about.jpg");
+  background-position: center;
+}
+div.banner.banner-about p.p2 {
+  text-align: left;
+}
+div.banner.banner-pro {
+  height: 741px;
+  background: url("../images/banner-pro.jpg") no-repeat center;
+}
+@media screen and (max-width: 767px) {
+  div.banner.banner-pro {
+    height: 100%;
+  }
+}
+div.banner.banner-pro div.container p.title {
+  font-size: 26px;
+}
+div.banner.banner-pro div.ban-pro {
+  text-align: center;
+  font-size: 0;
+  letter-spacing: -1px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 767px) {
+  div.banner.banner-pro div.ban-pro {
+    margin-top: 25px;
+  }
+}
+div.banner.banner-pro div.ban-pro a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #fff;
+  width: 120px;
+}
+div.banner.banner-pro div.ban-pro a div {
+  margin-bottom: 10px;
+}
+div.banner.banner-pro div.ban-pro a div.ban-a1 {
+  background-image: url("../images/pro_ico_01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.banner.banner-pro div.ban-pro a div.ban-a2 {
+  background-image: url("../images/pro_ico_02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.banner.banner-pro div.ban-pro a div.ban-a3 {
+  background-image: url("../images/pro_ico_03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.banner.banner-pro div.ban-pro a div.ban-a4 {
+  background-image: url("../images/pro_ico_04.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.banner.banner-pro div.ban-pro a div:hover {
+  background-size: 40%;
+}
+div.banner.banner-pro div.ban-pro a div img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  div.banner.banner-pro div.ban-pro a {
+    width: 25%;
+  }
+  div.banner.banner-pro div.ban-pro a div {
+    background-size: 50% !important;
+  }
+}
+div.banner.banner-fea {
+  height: 741px;
+  background-image: url("../images/banner-fea.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 767px) {
+  div.banner.banner-fea {
+    height: 100%;
+  }
+}
+div.banner.banner-fea div.container {
+  padding-top: 160px;
+  max-width: 1090px;
+}
+@media screen and (max-width: 767px) {
+  div.banner.banner-fea div.container {
+    padding-top: 100px;
+  }
+}
+div.banner.banner-fea div.container p.title {
+  font-size: 26px;
+}
+@media screen and (max-width: 767px) {
+  div.banner.banner-fea div.container p.title {
+    font-size: 2rem;
+  }
+}
+div.banner.banner-fea div.container div.ban-fea {
+  text-align: center;
+  margin-top: 90px;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  div.banner.banner-fea div.container div.ban-fea {
+    margin-top: 60px;
+  }
+}
+div.banner.banner-fea div.container div.ban-fea img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+div.banner.banner-fea div.container div.ban-fea .im {
+  position: absolute;
+}
+div.banner.banner-fea div.container div.ban-fea img.fea-img1 {
+  top: 55px;
+  left: 55px;
+}
+div.banner.banner-fea div.container div.ban-fea img.fea-img2 {
+  top: 105px;
+  left: 85px;
+}
+div.banner.banner-fea div.container div.ban-fea img.fea-img3 {
+  top: 85px;
+  left: 150px;
+}
+div.banner.banner-fea div.container div.ban-fea img.fea-img4 {
+  top: 118px;
+  left: 177px;
+}
+div.banner.banner-fea div.container div.ban-fea img.fea-img5 {
+  top: 150px;
+  left: 130px;
+}
+div.banner.banner-fea div.container div.ban-fea img.fea-img6 {
+  top: 155px;
+  left: 72px;
+}
+div.banner.banner-fea div.container div.ban-fea div.jt {
+  top: 119px;
+  left: 265px;
+}
+div.banner.banner-fea div.container div.ban-fea div.jt i {
+  float: left;
+  color: #fff;
+  transform: rotate(-90deg);
+  position: relative;
+  opacity: 0;
+}
+div.banner.banner-fea div.container div.ban-fea div.jt i.fea-i2 {
+  left: -8px;
+}
+div.banner.banner-fea div.container div.ban-fea div.jt i.fea-i3 {
+  left: -15px;
+}
+div.banner div.container {
+  padding-top: 130px;
+  max-width: 860px;
+}
+@media screen and (max-width: 767px) {
+  div.banner div.container {
+    padding-top: 80px;
+  }
+}
+div.banner div.container p.title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}

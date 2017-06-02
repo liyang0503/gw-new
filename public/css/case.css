@@ -1,0 +1,247 @@
+section div.case {
+  text-align: center;
+  padding: 40px 0;
+}
+section div.case div.case-top div.container {
+  max-width: 660px;
+}
+section div.case div.case-top div.container div.top-title {
+  margin-bottom: 20px;
+}
+section div.case div.case-top div.container div.top-title p.p1 {
+  font-size: 30px;
+}
+section div.case div.case-top div.container div.top-title p.p2 {
+  line-height: 100%;
+}
+section div.case div.case-content {
+  margin-top: 50px;
+}
+section div.case div.case-content div.container ul {
+  box-shadow: 0 0 15px 1px #ddd;
+}
+section div.case div.case-content div.container ul li {
+  width: 20%;
+  text-align: center;
+  padding: 20px 20px 15px;
+}
+@media screen and (max-width: 991px) {
+  section div.case div.case-content div.container ul li {
+    width: 50%;
+  }
+}
+section div.case div.case-content div.container ul li div {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+section div.case div.case-content div.container ul li div.d1 {
+  background: url("../images/hz-01.png") no-repeat center #f0f0f0;
+}
+section div.case div.case-content div.container ul li div.d2 {
+  background: url("../images/hz-02.png") no-repeat center #f0f0f0;
+}
+section div.case div.case-content div.container ul li div.d3 {
+  background: url("../images/hz-03.png") no-repeat center #f0f0f0;
+}
+section div.case div.case-content div.container ul li div.d4 {
+  background: url("../images/hz-04.png") no-repeat center #f0f0f0;
+}
+section div.case div.case-content div.container ul li div.d5 {
+  background: url("../images/hz-05.png") no-repeat center #f0f0f0;
+}
+section div.case div.case-content div.container ul li div:before {
+  content: "";
+  position: absolute;
+  right: -21px;
+  top: 50%;
+  height: 120px;
+  width: 1px;
+  background: #eee;
+  margin-top: -60px;
+}
+section div.case div.case-content div.container ul li div:hover {
+  background-color: #e0e0e0;
+}
+@media screen and (max-width: 767px) {
+  section div.case div.case-content div.container ul li div {
+    height: 135px;
+  }
+  section div.case div.case-content div.container ul li div:before {
+    height: 80px;
+    margin-top: -40px;
+  }
+}
+section div.case div.case-content div.container ul li p {
+  line-height: 130%;
+  padding: 0 20px;
+  color: #888;
+  margin-top: 15px;
+}
+section div.case div.case-content div.container ul li:last-child div:before {
+  background: transparent;
+}
+section div.contact {
+  text-align: center;
+  height: 105px;
+  background: #f8f8f8;
+  color: #666;
+  padding: 34px 0;
+}
+@media screen and (max-width: 767px) {
+  section div.contact {
+    height: 70px;
+    padding: 10px 0;
+  }
+}
+section div.contact div.container span {
+  display: inline-block;
+  margin-right: 30px;
+}
+section div.contact div.container span.s1 {
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  section div.contact div.container span.s1 {
+    display: block;
+    margin: 0;
+    font-size: 1.6rem;
+  }
+}
+section div.contact div.container span.s2 {
+  margin-right: 25px;
+}
+section div.contact div.container span.s2 i {
+  color: #6699ff;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+@media screen and (max-width: 767px) {
+  section div.contact div.container span.s2 {
+    font-size: 1.2rem;
+    margin-right: 3%;
+  }
+  section div.contact div.container span.s2:last-child {
+    margin-right: 0;
+  }
+  section div.contact div.container span.s2 i {
+    font-size: 1.2rem;
+  }
+}
+section div.talent {
+  padding: 40px 0;
+  color: #666;
+}
+@media screen and (max-width: 767px) {
+  section div.talent {
+    padding: 10px 0;
+  }
+}
+section div.talent div.container div.tal-le {
+  border-right: 1px solid #eee;
+  padding: 10px 0;
+}
+section div.talent div.container div.tal-le div.row {
+  margin: 0;
+}
+section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li a.a1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+}
+section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li a.a1 span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #6699ff;
+}
+section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li ul {
+  display: none;
+  padding-left: 50px;
+}
+section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li ul li.active a {
+  color: #6699ff;
+}
+section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li ul li a:hover {
+  color: #6699ff;
+}
+section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li.active ul {
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li a.a1 {
+    font-size: 1.6rem;
+  }
+  section div.talent div.container div.tal-le div.row ul.tal-list li.tal-li ul {
+    padding-left: 25px;
+  }
+}
+section div.talent div.container div.tal-le div.row div.tal-r div.d1 {
+  margin-bottom: 10px;
+}
+section div.talent div.container div.tal-le div.row div.tal-r div.d1 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+section div.talent div.container div.tal-le div.row div.tal-r div.d1 ul li i {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #6699ff;
+  border-radius: 50%;
+  margin: 0 10px 0 5px;
+}
+@media screen and (max-width: 767px) {
+  section div.talent div.container div.tal-le div.row div.tal-r {
+    padding-left: 40px;
+  }
+  section div.talent div.container div.tal-le div.row div.tal-r div.d1 {
+    margin-bottom: 5px;
+  }
+  section div.talent div.container div.tal-le div.row div.tal-r div.d1 p {
+    font-size: 1.6rem;
+  }
+}
+section div.talent div.container div.tal-rt {
+  padding: 10px 10px 10px 20px;
+}
+section div.talent div.container div.tal-rt p {
+  font-size: 20px;
+  font-weight: bold;
+}
+section div.talent div.container div.tal-rt ul li {
+  color: #6699ff;
+  padding: 2px 0;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  section div.talent div.container div.tal-rt p {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+  section div.talent div.container div.tal-rt ul {
+    overflow: hidden;
+  }
+  section div.talent div.container div.tal-rt ul li {
+    float: left;
+    margin-right: 15px;
+    padding: 8px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  section div.talent div.container div.tal-rt {
+    padding-left: 40px;
+  }
+  section div.talent div.container div.tal-rt p {
+    font-size: 1.6rem;
+  }
+}
