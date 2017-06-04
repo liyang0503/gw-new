@@ -60,7 +60,7 @@ function init1() {
 }
 
 function is() {
-   $('.jt').animate({left: '275px'}, 1500).animate({left: '265px'}, 0);
+   $('.jt').animate({left: '265px'}, 1500).animate({left: '255px'}, 0);
    $('.fea-i1').animate({opacity: '1'}, 600).animate({opacity: '0'}, 600);
    setTimeout(function () {
       $('.fea-i2').animate({opacity: "1"}, 600).animate({opacity: "0"}, 600);

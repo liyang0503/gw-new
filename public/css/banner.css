@@ -309,55 +309,13 @@ div.banner.banner-fea div.container div.ban-fea {
   div.banner.banner-fea div.container div.ban-fea {
     margin-top: 60px;
   }
+  div.banner.banner-fea div.container div.ban-fea img {
+    margin: auto;
+  }
 }
 div.banner.banner-fea div.container div.ban-fea img {
   display: block;
   max-width: 100%;
-  margin: auto;
-}
-div.banner.banner-fea div.container div.ban-fea .im {
-  position: absolute;
-}
-div.banner.banner-fea div.container div.ban-fea img.fea-img1 {
-  top: 55px;
-  left: 55px;
-}
-div.banner.banner-fea div.container div.ban-fea img.fea-img2 {
-  top: 105px;
-  left: 85px;
-}
-div.banner.banner-fea div.container div.ban-fea img.fea-img3 {
-  top: 85px;
-  left: 150px;
-}
-div.banner.banner-fea div.container div.ban-fea img.fea-img4 {
-  top: 118px;
-  left: 177px;
-}
-div.banner.banner-fea div.container div.ban-fea img.fea-img5 {
-  top: 150px;
-  left: 130px;
-}
-div.banner.banner-fea div.container div.ban-fea img.fea-img6 {
-  top: 155px;
-  left: 72px;
-}
-div.banner.banner-fea div.container div.ban-fea div.jt {
-  top: 119px;
-  left: 265px;
-}
-div.banner.banner-fea div.container div.ban-fea div.jt i {
-  float: left;
-  color: #fff;
-  transform: rotate(-90deg);
-  position: relative;
-  opacity: 0;
-}
-div.banner.banner-fea div.container div.ban-fea div.jt i.fea-i2 {
-  left: -8px;
-}
-div.banner.banner-fea div.container div.ban-fea div.jt i.fea-i3 {
-  left: -15px;
 }
 div.banner div.container {
   padding-top: 130px;
@@ -371,4 +329,100 @@ div.banner div.container {
 div.banner div.container p.title {
   font-size: 36px;
   margin-bottom: 10px;
+}
+/************ 功能介绍 ************/
+@media screen and (min-width: 993px) {
+  div.banner div.container div.ban-fea img.img1 {
+    position: relative;
+    left: 40px;
+  }
+  div.banner div.container div.ban-fea .im {
+    position: absolute;
+  }
+  div.banner div.container div.ban-fea img.fea-img1 {
+    top: 55px;
+    left: 45px;
+  }
+  div.banner div.container div.ban-fea img.fea-img2 {
+    top: 105px;
+    left: 75px;
+  }
+  div.banner div.container div.ban-fea img.fea-img3 {
+    top: 85px;
+    left: 140px;
+  }
+  div.banner div.container div.ban-fea img.fea-img4 {
+    top: 118px;
+    left: 167px;
+  }
+  div.banner div.container div.ban-fea img.fea-img5 {
+    top: 150px;
+    left: 120px;
+  }
+  div.banner div.container div.ban-fea img.fea-img6 {
+    top: 155px;
+    left: 62px;
+  }
+  div.banner div.container div.ban-fea div.jt {
+    top: 120px;
+    left: 255px;
+  }
+  div.banner div.container div.ban-fea div.jt i {
+    float: left;
+    color: #fff;
+    transform: rotate(-90deg);
+    position: relative;
+    opacity: 0;
+  }
+  div.banner div.container div.ban-fea div.jt i.fea-i2 {
+    left: -8px;
+  }
+  div.banner div.container div.ban-fea div.jt i.fea-i3 {
+    left: -15px;
+  }
+  div.banner div.container div.ban-fea ul.fea-u1 {
+    margin: 0;
+    top: 77px;
+    left: 327px;
+  }
+  div.banner div.container div.ban-fea ul.fea-u1 li {
+    float: left;
+  }
+  div.banner div.container div.ban-fea ul.fea-u1 li p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  div.banner div.container div.ban-fea div.fea-qx {
+    top: 126px;
+    left: 770px;
+    border: 1px solid #fec962;
+    width: 64px;
+  }
+  div.banner div.container div.ban-fea div.fea-qx img {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    margin-left: -16px;
+  }
+  div.banner div.container div.ban-fea ul.fea-u2 {
+    top: 31px;
+    left: 807px;
+    width: 200px;
+    height: 195px;
+  }
+  div.banner div.container div.ban-fea ul.fea-u2 li {
+    position: absolute;
+  }
+  div.banner div.container div.ban-fea ul.fea-u2 li.u2-1 {
+    top: 0;
+    left: 0;
+  }
+  div.banner div.container div.ban-fea ul.fea-u2 li.u2-2 {
+    top: 95px;
+    left: 0;
+  }
+  div.banner div.container div.ban-fea ul.fea-u2 li.u2-3 {
+    top: 48px;
+    left: 83px;
+  }
 }
